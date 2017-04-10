@@ -1,0 +1,12 @@
+[{
+  "modid": "gridlines",
+  "name": "GridLines",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Gjum/GridLines",
+  "authorList": ["Gjum"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]
