@@ -104,6 +104,7 @@ public class GridLinesConfig {
         if (config.hasChanged()) {
             config.save();
             syncProperties();
+            GridLinesMod.logger.info("Saved " + GridLinesMod.MOD_NAME + " config.");
         }
     }
 

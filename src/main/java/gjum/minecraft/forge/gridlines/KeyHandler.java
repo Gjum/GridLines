@@ -13,8 +13,8 @@ import org.lwjgl.input.Keyboard;
 
 public class KeyHandler {
     private final KeyBinding anchorOnPlayer = new KeyBinding("Anchor on player", Keyboard.KEY_NONE, "GridLines");
-    private final KeyBinding openConfigGui = new KeyBinding("Open config screen", Keyboard.KEY_NONE, "GridLines");
-    private final KeyBinding toggleAllRender = new KeyBinding("Toggle render all overlays", Keyboard.KEY_NONE, "GridLines");
+    private final KeyBinding openConfigGui = new KeyBinding("Open GridLines config screen", Keyboard.KEY_NONE, "GridLines");
+    private final KeyBinding toggleAllRender = new KeyBinding("Toggle render all grid lines", Keyboard.KEY_NONE, "GridLines");
     private final KeyBinding toggleDepthTest = new KeyBinding("Toggle depth test", Keyboard.KEY_NONE, "GridLines");
 
     private long lastCrash = 0;
