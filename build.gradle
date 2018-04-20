@@ -11,7 +11,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
         classpath 'org.ajoberstar:grgit:1.1.0'
     }
 }
@@ -23,7 +23,7 @@ targetCompatibility = 1.7
 ext {
     head = Grgit.open(".").head()
 
-    forgeVsn = "1.10.2-12.18.3.2254"
+    forgeVsn = "1.12.2-14.23.1.2555"
     if (System.getenv("FORGE_VERSION") != null) {
         forgeVsn = System.getenv("FORGE_VERSION")
     }
@@ -33,7 +33,7 @@ ext {
 group = "gjum.minecraft.forge"
 archivesBaseName = "GridLines-" + mcVsn
 
-version = "0.1.0"
+version = "0.2.0"
 if (!head.shortMessage.matches("[Rr]elease v\\d+.\\d+.\\d+.*")) {
     version = "${version}-pre-git-${head.abbreviatedId}+forge-$forgeVsn"
     if (System.getenv("TRAVIS_BUILD_NUMBER") != null) {
